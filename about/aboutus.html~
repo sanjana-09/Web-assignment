@@ -1,0 +1,75 @@
+<!--Author: Sanjana Khot-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+  	<title>About</title>
+  	<meta name="author" content ="Sanjana Khot"/>
+  	<link rel="stylesheet" href="../stylesheet.css" />
+	<link rel="stylesheet" href="aboutus.css"/>
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	
+	<!--Google Fonts API-->
+	<link href='http://fonts.googleapis.com/css?family=Rufina' rel='stylesheet' type='text/css'>
+  	
+	<!--use of HTML5 Shiv-->
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  	</script>
+  	<![endif]-->
+</head>
+
+<body>
+	<div id = "wrapper">
+
+	<header>
+	<!--navigation-->
+	<nav>
+		<ul>
+   			<li><a href = "../index/index.html" class ="tab"  accesskey="h"><span class="underline">H</span>ome</a></li> <!--Use of span and class-->
+  			<li><a href="../about/aboutus.html" class = "tab selected"  accesskey="b">A<span class="underline">b</span>out Us</a></li>
+  			<li><a href = "../news/news.html" class = "tab" accesskey="n"><span class="underline">N</span>ews</a></li>
+  			<li><a href = "../demo/demo.html" class ="tab" accesskey="d"><span class="underline">D</span>emo</a></li>
+  			<li><a href="../accessibility/accessibility.html" class = "tab" accesskey="a"><span class="underline">A</span>ccessibility</a></li>
+  			<li><a href="../contact/contactus.html" class="tab" accesskey="c"><span class="underline">C</span>ontact</a></li>
+  			<img src="../images/logocr.png" alt="logo" class="logo" />
+		</ul>
+	</nav>
+	</header>
+
+	
+
+	<section id="main">
+	<h1 class="heading">ABOUT</h1>
+	<figure class="image">
+  		<img src="../images/mypicture.jpg" alt="My picture" width="155" height= "210"/>
+  	</figure>
+		
+	<div id="content">
+		<div id = "writtencontent">
+			<p>We have been building websites in Yorkshire since 2003. We have developed web projects for some of the region's most prominent organisations over the last decade.
+			Our team consists of highly dedicated and experienced professionals and we are amongst the best in the industry.
+			We have designed and developed a wide-ranging variety of websites, whether personal or corporate and our clients have always been more than happy with our work.
+			text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+			text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+			text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+			text text text text text text text text text text text text.
+			I, Sanjana Khot, am the founder and Creative Director of *SKWallArt, and our team consists of extremely competent web designers with decades of experience.</p>
+			<p></p>
+		</div>
+			
+	</div>
+	</section>
+
+	<footer>
+		&copy;2014, Sanjana Khot
+		<p class="small"> *This company and hence this biography is entirely fictitious. Also, the picture on this page has been sourced from www.morguefile.com</p>
+		
+	</footer>
+
+	</div>
+
+</body>
+
+</html>

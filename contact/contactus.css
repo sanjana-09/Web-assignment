@@ -1,0 +1,106 @@
+/*Author: Sanjana Khot*/
+article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, section{
+    display:block;
+}
+
+#content{
+    background-color: transparent;
+    width:800px;
+    margin: 0px auto;
+   
+}
+
+#writtencontent{
+    padding: 0px;
+}
+/* Form styling */
+
+.form{
+    margin:0px 0px 10px 0px;
+    padding:5px;
+    background-color: maroon;
+    text-align:center;
+   
+}
+
+/*Headings for the form and address*/
+
+.textbox {
+    padding: 5px;
+    margin:0px auto;
+
+}
+
+.emailbox{
+    height:30px;
+    width:552px;
+    background-color:#fff;
+    color:#000000;
+    border:0.75px solid black;
+    border-radius:7px;
+    opacity:0.95;
+  
+
+}
+::-webkit-input-placeholder {
+    text-align:left;
+    color:#1A1A1A;
+    font-size:initial;
+}
+
+
+textarea{
+    vertical-align:top;
+    font-family:sans-serif;
+    margin:0px auto;
+    background-color:#fff;
+    color:#000000;
+    border:0.75px solid black;
+    border-radius:7px;
+    opacity:1.0;
+    width:552px;
+    height:200px;
+   
+}
+
+textarea :focus{
+    none;
+}
+
+.buttons {
+    width:520px;
+}
+.button{
+    background-color:#3A0000;
+    border:2px solid #2a0000;
+    margin:0px 5px 10px 0px;
+    height:30px;
+    width:85px;
+    color:#fff;
+    font-size:inherit;
+    text-align:center;
+    border-radius:5px;
+    outline-color:black;
+   -webkit-box-shadow: -7px 7px 5px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 7px 5px -6px rgba(0,0,0,0.75);
+    box-shadow: -7px 7px 5px -6px rgba(0,0,0,0.75);
+    -webkit-appearance: none;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color:#160000;
+}
+
+p.large {
+    font-size: 120%;
+}
+
+.line{
+    margin:5px;
+}
+/*Styling div element containing address*/
+.address{
+    text-align:center;
+    background-color:maroon;
+    padding:5px;
+}

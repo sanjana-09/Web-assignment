@@ -1,0 +1,23 @@
+/*Author: Sanjana Khot*/
+article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, section{
+display:block;
+}
+
+
+
+/*Table styling*/
+table,th,td {
+	background-color:#94624C;
+	color:#fff;
+  border:2px solid #855844;
+  border-collapse: collapse;
+	padding:15px;
+	margin:30px auto;
+	border-radius:5px;
+	opacity:1.0;
+	text-align:center;
+	font-size:110%;
+}
+
+
+

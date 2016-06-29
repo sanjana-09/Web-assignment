@@ -1,0 +1,74 @@
+ /*Author: Sanjana Khot*/
+
+const ACCEL = 0.2;
+const BASE_SPEED = 2;
+const CIRCLE_RADIUS = 40;
+
+var canvas, context;
+var WIDTH, HEIGHT;
+
+var mouseX, mouseY;
+var interval;
+
+var x, y, dx, dy;
+
+function circle(x, y, r, c) {  /*drawing the circle*/
+	context.fillStyle = c;
+	context.beginPath();
+	context.arc(x, y, r, 0, Math.PI*2, true);
+	context.closePath();
+	context.fill();
+}
+function render() {  
+	context.clearRect(0, 0, WIDTH, HEIGHT);
+	
+	x += dx; /*changing x coordinate*/
+	
+	dy += ACCEL; /*changing displacement in the y direction */
+	y += BASE_SPEED + dy; /* changing y coordinate*/ 
+	
+	if(x + dx > WIDTH || x + dx < 0) /*making the ball bounce off the left and right sides  */
+		dx *= -1;
+	
+	if(y > HEIGHT + CIRCLE_RADIUS) /* Reset ball position if it drops off the bottom of the canvas */            
+		resetBall();
+	
+	circle(x, y, CIRCLE_RADIUS, "rgb(0, 0, 255)"); /* calls function to draw circle */
+}
+function hitBall(event){ /*makes ball appear to bounce off the cursor*/
+	mouseX = event.pageX - canvas.offsetLeft;
+	mouseY = event.pageY - canvas.offsetTop;
+	
+	if(mouseX > x - CIRCLE_RADIUS && mouseX <= x + CIRCLE_RADIUS &&
+	   mouseY > y - CIRCLE_RADIUS && mouseY <= y + CIRCLE_RADIUS){
+		dy = -10;
+		dx = (x - mouseX) * ACCEL;
+	}
+}
+function resetBall() { /*resets ball position */
+	dy = 0;
+	dx = 0;
+	x = WIDTH * 0.5;
+	y = 100;
+}
+function init() { /*initialises all variables */
+	canvas = document.getElementById("canvas");
+	context = canvas.getContext("2d");
+	canvas.addEventListener("mousemove", hitBall);
+	
+	WIDTH = canvas.width;
+	HEIGHT = canvas.height;
+	
+	resetBall();
+
+	button = document.getElementById("button");
+	button.addEventListener("click",start);
+   }
+
+function start(){
+
+	interval = setInterval(render, 30); /*calls function render every 10 milliseconds*/
+
+}
+if (document.getElementById) window.onload = init;
+ 

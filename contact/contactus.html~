@@ -1,0 +1,91 @@
+<!--Author: Sanjana Khot-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+  	<title>Contact</title>
+  	<meta name="author" content ="Sanjana Khot"/>
+	<link rel="stylesheet" href="contactus.css"/>
+  	<link rel="stylesheet" href="../stylesheet.css" />      	
+	
+
+  	
+	<!--use of HTML5 Shiv-->
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  	</script>
+  	<![endif]-->
+
+</head>
+
+<body>
+	<div id = "wrapper">
+
+	<header>
+	<nav>
+		<ul>
+   			<li><a href = "../index/index.html" class ="tab "  accesskey="h"><span class="underline">H</span>ome</a></li> <!--Use of span -->
+  			<li><a href="../about/aboutus.html" class = "tab"  accesskey="b">A<span class="underline">b</span>out Us</a></li>
+  			<li><a href = "../news/news.html" class = "tab" accesskey="n"><span class="underline">N</span>ews</a></li>
+  			<li><a href = "../demo/demo.html" class ="tab" accesskey="d"><span class="underline">D</span>emo</a></li>
+  			<li><a href="../accessibility/accessibility.html" class = "tab" accesskey="a"><span class="underline">A</span>ccessibility</a></li>
+  			<li><a href="../contact/contactus.html" class="tab selected" accesskey="c"><span class="underline">C</span>ontact</a></li>
+  			<img src="../images/logocr.png" alt="logo" class="logo" />
+  			
+		</ul>
+		
+	</nav>
+	</header>
+	<section id="main">
+		<h1 class="heading">CONTACT</h1>
+		
+		
+		<!--form-->
+		<form class ="form" name="contact" 
+		 action="http://www.dcs.shef.ac.uk/cgi-bin/FormMail.pl" 
+		 method="get">
+		<input type="hidden" name="recipient" 
+ 		value="skhot1@sheffield.ac.uk" />
+ 		
+		<h1 class="line">Contact Us</h1>
+		<p class="large">We would love to hear from you.</p>
+		<p>Please fill out the form below if you wish to contact us regarding website development for your company or for any feedback.</p>
+		
+		<p class="textbox">
+		<label for="email">Your e-mail:</label> <!--automatic validation for email-->
+		<input class="emailbox" type="email" name="email" id="email" placeholder="Type your e-mail id" maxlength="40" size="68.5" required="required"/>
+		</p>
+
+		<p class="textbox">
+		<label for="comments">Comments:</label>
+		<textarea id="comments" rows="10" maxlength="500" required="required" placeholder ="Type your comments."></textarea>
+		</p>
+		
+		<p class="buttons">
+		<input type="submit" name="submit" id="submit" value="Submit" span class="button"  />
+		<input span class="button" type="reset" />
+		</p>
+		
+		</form>
+		
+		<article id="address">
+		<h1 class="line">Address</h1>
+		<p>162 Nottingham Court,</p>
+		<p>20 West Street,</p>
+		<p>Sheffield S1 440.</p>
+		</article>
+		
+	
+		
+
+	</section>
+
+	<footer>
+		&copy;2014, Sanjana Khot
+	</footer>
+
+	</div>
+</body>
+
+</html>

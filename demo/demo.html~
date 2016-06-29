@@ -1,0 +1,69 @@
+<!--Author: Sanjana Khot-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="utf-8"/>
+	<title>Demo</title>
+	<link rel="stylesheet" href="../stylesheet.css" />
+	<link rel="stylesheet" href="demo.css" />  
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	
+
+	<!--Incorporating Google Fonts API-->
+	<link href='http://fonts.googleapis.com/css?family=Rufina' rel='stylesheet' type='text/css'>
+	<script src="demo.js"></script>
+
+	<!--use of HTML5 Shiv-->
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  	</script>
+  	<![endif]-->
+
+	
+</head>
+
+<body>
+
+
+	<div id = "wrapper">
+
+	<header>
+	<nav>
+		<ul>
+   			<li><a href = "../index/index.html" class ="tab "  accesskey="h"><span class="underline">H</span>ome</a></li> <!--Use of span -->
+  			<li><a href="../about/aboutus.html" class = "tab"  accesskey="b">A<span class="underline">b</span>out Us</a></li>
+  			<li><a href = "../news/news.html" class = "tab" accesskey="n"><span class="underline">N</span>ews</a></li>
+  			<li><a href = "../demo/demo.html" class ="tab selected" accesskey="d"><span class="underline">D</span>emo</a></li>
+  			<li><a href="../accessibility/accessibility.html" class = "tab" accesskey="a"><span class="underline">A</span>ccessibility</a></li>
+  			<li><a href="../contact/contactus.html" class="tab" accesskey="c"><span class="underline">C</span>ontact</a></li>
+  			<img src="../images/logocr.png" alt="logo" class="logo" />
+  			
+		</ul>
+		
+	</nav>
+	</header>
+	<section id="main">
+		<h1 class="heading">DEMO</h1>
+	
+		<!--canvas-->
+		<canvas id="canvas" width="500" height="500"></canvas>
+		<div id ="content">
+		<p>
+		Instructions:
+		</p>
+		<p>Touch the ball with the cursor to make it bounce off in the opposite direction.
+			When the cursor is away from the ball, the ball falls in the vertically downward direction.
+			The aim of the game is to keep the ball afloat.
+		</p>
+		</div>
+	</section>
+
+	<footer>
+		&copy;2014, Sanjana Khot
+	</footer>
+
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+ /*Author:Sanjana Khot */
+article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, section{
+display:block;
+}
+
+.image{
+
+	float : left;
+	margin:10px;
+	padding:2px;
+}
+
+#writtencontent {
+	padding: 20px;
+}
+
+
+#main {
+	height:700px;
+}
+
+/*Note about company being fictitious*/
+.small {
+	margin:20px 0px 0px 0px;
+	font-size:80%
+}

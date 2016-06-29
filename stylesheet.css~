@@ -1,0 +1,180 @@
+/*Author: Sanjana Khot*/
+article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, section{
+display:block;
+}
+
+/*Minimal reset */
+* { 
+	padding:0; 
+	margin:0; 
+}
+
+
+body {
+	font-size: 90%;
+	font-family:Helvetica, Arial, Verdana, sans-serif; 
+	color:#fff;
+	background:#fff;
+
+	
+}
+
+img {
+	/*border:1px solid gray;*/
+}
+
+/*'wrapper' groups the header,nav bar, main section and the footer*/
+
+#wrapper {
+	font-family: Helvetica, Arial, Verdana, sans-serif; 
+	/*background-color:#00004b;*/
+
+	/*background-image: url("images/background.jpg");*/
+	/*width:1200px;*/
+	/*box-shadow: 5px 5px 5px 5px #888888; use of box-shadow*/
+  	/*margin: 0px auto;*/
+  	/*border-radius: 5px;*/
+	overflow: hidden;
+    background-image: url("images/crayons.jpg");
+    background-size: cover;
+    opacity:0.9;
+
+}
+
+/*header {
+	/*background:linear-gradient(to bottom,#0D30E3,#0BBDE5); /*Use of CSS3 gradients
+    opacity:0.55;
+ 	border-top-left-radius: 5px; 
+  	border-top-right-radius: 5px;
+  	padding:20px;
+}*/
+
+
+header h1 {
+	font-family: 'Rufina', serif; /*Google fonts*/
+	font-size:60px;
+	color:White;
+	text-align :center;
+	position:relative;
+	top: -70px;
+	
+}
+
+nav {
+	/*background:linear-gradient(to bottom,#ffffff, #e1e1e3);*/
+    background-color:#2b2b26;
+	font-size:1.2em;
+    height:50px;
+
+}  
+
+nav ul {  
+ 	list-style: none;
+  	padding: 10px;
+  	margin:0px;
+  	text-align:left;
+  	overflow :hidden; /*hides background colour overflow*/
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+/*Navigation bar buttons*/
+.tab {
+	color:#fff;
+	/*font-weight: bold;*/
+	text-align: center;
+	/*height: 10px;
+	width: 20px;*/
+    	padding: 20px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+}
+
+.tab:hover {
+	background-color: #000000;
+}
+
+/*Navigation bar button corresponding to the page that is active*/
+.selected {
+	background-color: #000000;
+} 
+
+*.underline {
+	text-decoration: underline;
+}
+
+.logo {
+    float:right;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+    top: -8px;
+}
+/* main section*/
+#main {
+	/*padding:10px;*/
+	border-left: 1px solid gray;
+	border-right:1px solid gray;
+	margin:10px;
+ 
+
+    height: 1000px;
+
+}
+
+p {
+	padding: 5px;
+}
+
+h1 {
+	padding :5px;
+}
+
+.name {
+opacity:0.7;
+}
+/* second div element*/	
+#content {
+    background-color: #576C42;
+    height: 215px;
+     opacity:0.7;
+}
+
+#writtencontent {
+    padding:40px;
+    text-align:center;
+    font-size:1.2em;
+   
+
+
+}
+
+#transp {
+
+}
+
+#content a{
+	text-decoration: none; /*for links*/
+	color: #FFFF00;
+}
+
+h1.heading {
+	padding:10px;
+	/*border-bottom: 2px solid gray;*/
+	
+}
+
+footer {
+	color: #fff;
+	background-color: #2b2b26;
+	text-align:center;
+	/*border-bottom-right-radius: 5px; /*rounded corners
+	border-bottom-left-radius: 5px;*/
+	padding:10px;
+	clear:both;
+	margin: 10px 0px 0px 0px; /*CSS box model for margins used economically*/
+}
+

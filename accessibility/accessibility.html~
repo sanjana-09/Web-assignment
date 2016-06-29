@@ -1,0 +1,105 @@
+<!--Author: Sanjana Khot-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="utf-8"/>
+  	<title>Accessibility</title>
+  	<meta name="author" content ="Sanjana Khot"/>
+  	<link rel="stylesheet" href="../stylesheet.css" />
+	<link rel="stylesheet" href="accessibility.css"/>
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	
+	<!--Google Fonts API-->
+	<link href='http://fonts.googleapis.com/css?family=Rufina' rel='stylesheet' type='text/css'>
+  	
+	<!--use of HTML5 Shiv-->
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  	</script>
+  	<![endif]-->
+
+</head>
+
+<body>
+	<div id = "wrapper">
+
+	<header>
+	<nav>
+		<ul>
+   			<li><a href = "../index/index.html" class ="tab"  accesskey="h"><span class="underline">H</span>ome</a></li> <!--Use of span -->
+  			<li><a href="../about/aboutus.html" class = "tab"  accesskey="b">A<span class="underline">b</span>out Us</a></li>
+  			<li><a href = "../news/news.html" class = "tab" accesskey="n"><span class="underline">N</span>ews</a></li>
+  			<li><a href = "../demo/demo.html" class ="tab" accesskey="d"><span class="underline">D</span>emo</a></li>
+  			<li><a href="../accessibility/accessibility.html" class = "tab  selected" accesskey="a"><span class="underline">A</span>ccessibility</a></li>
+  			<li><a href="../contact/contactus.html" class="tab" accesskey="c"><span class="underline">C</span>ontact</a></li>
+  			<img src="../images/logocr.png" alt="logo" class="logo" />
+  			
+		</ul>
+		
+	</nav>
+	</header>
+
+	<section id="main">
+		<h1 class="heading">ACCESSIBILITY</h1>
+
+		<div id="content">
+			<div id = "writtencontent">
+				<p>SKWallart is committed to making its web pages accessible to everyone.</p>
+				<p> The Worldwide Web Consortium has produced guidelines for making web content accessible to people with disabilities.
+				We have designed our website based on these guidelines. For example, we have provided text alternatives for any non-text content
+				and have made most functionaility available from a keyboard.</p>
+				<p><a href="http://en.wikipedia.org/wiki/Access_key#Access_in_different_browsers" accesskey="l"> <span class ="underline">L</span>ist of browsers and access keys on Wikipedia</a></p>
+				<p>Access keys used on the SKWallArt website:</p>
+			</div>
+		</div>
+		<div id = "table">
+		<table> <!--Use of table for displaying access keys-->
+		<tr>
+			<th>Access Key</th>
+			<th>Web page</th>
+		</tr>
+		<tr>
+			<td>H</td>
+			<td><span class="underline">H</span>ome page</td>
+		</tr>
+		<tr>
+			<td>B</td>
+			<td>A<span class="underline">b</span>out page</td>
+		</tr>
+		<tr>
+			<td>N</td>
+			<td><span class="underline">N</span>ews page</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td><span class="underline">D</span>emo page</td>
+		</tr>
+		<tr>
+			<td>A</td>
+			<td><span class="underline">A</span>ccessibility page</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td><span class="underline">C</span>ontact page</td>
+		</tr>
+		<tr>
+			<td>L</td>
+			<td><span class="underline">L</span>ist of browsers</td>
+		</tr>
+	</table>
+	</div>
+ 	
+
+	 
+
+	</section>
+	
+	<footer>
+		&copy;2014, Sanjana Khot
+	</footer>
+
+	</div>
+	
+</body>
+
+</html>
