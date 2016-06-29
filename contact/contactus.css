@@ -34,6 +34,7 @@ article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, s
 .emailbox{
     height:30px;
     width:552px;
+    font-family: inherit;
     background-color:#fff;
     color:#000000;
     border:0.75px solid black;
@@ -51,7 +52,7 @@ article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, s
 
 textarea{
     vertical-align:top;
-    font-family:sans-serif;
+    font-family:inherit;
     margin:0px auto;
     background-color:#fff;
     color:#000000;
