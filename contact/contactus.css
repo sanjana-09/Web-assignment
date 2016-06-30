@@ -5,50 +5,10 @@ article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, s
 
 #content{
     background-color: transparent;
-    width:800px;
+    width:850px;
     margin: 0px auto;
    
 }
-
-#writtencontent{
-    padding: 0px;
-}
-/* Form styling */
-
-.form{
-    margin:0px 0px 10px 0px;
-    padding:5px;
-    background-color: maroon;
-    text-align:center;
-   
-}
-
-/*Headings for the form and address*/
-
-.textbox {
-    padding: 5px;
-    margin:0px auto;
-
-}
-
-.emailbox{
-    height:30px;
-    width:552px;
-    font-family: inherit;
-    background-color:#fff;
-    color:#000000;
-    border:0.75px solid black;
-    border-radius:7px;
-    opacity:0.95;
-  
-
-}
-::-webkit-input-placeholder {
-    text-align:left;
-    color:#1A1A1A;
-    font-size:initial;
-}
-
 
 textarea{
     vertical-align:top;
@@ -57,12 +17,12 @@ textarea{
     background-color:#fff;
     color:#000000;
     border:0.75px solid black;
-    border-radius:7px;
     opacity:1.0;
-    width:552px;
+    width:550px;
     height:200px;
-   
-}
+    margin-left: 12px;
+   }
+
 
 textarea :focus{
     none;
@@ -72,11 +32,67 @@ p.large {
     font-size: 120%;
 }
 
+/* Form styling */
+
+.form{
+    margin:0px 0px 10px 0px;
+    padding:10px;
+    background-color: maroon;
+    text-align:center;
+   
+}
+
+.buttons {
+   margin-left: 170px;
+}
+
+.textbox {
+    padding: 5px;
+    margin: 0px auto;
+
+}
+
+.emailbox{
+    height:35px;
+    width:550px;
+    margin-left: 10px;
+    font-family: inherit;
+    background-color:#fff;
+    color:#000000;
+    border:0.75px solid black;
+    opacity:0.95;
+  
+
+}
+::-webkit-input-placeholder {
+    text-align:left;
+    color:#1A1A1A;
+    font-size:initial;
+    padding: 5px;
+}
+
+::-moz-placeholder {
+    text-align:left;
+    color:#1A1A1A;
+    font-size:initial;
+    padding: 5px;
+}
+
+:-ms-input-placeholder{
+    text-align:left;
+    color:#1A1A1A;
+    font-size:initial;
+    padding: 5px;
+
+}
+
 .line{
     margin:5px;
 }
+
 /*Styling div element containing address*/
 .address{
+    margin-top: 20px;
     text-align:center;
     background-color:maroon;
     padding:5px;

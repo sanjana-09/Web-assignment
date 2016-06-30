@@ -37,10 +37,15 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
+}
+
+p {
+    padding: 2px;
 }
 
 body {
@@ -52,31 +57,6 @@ body {
 *{
     box-sizing:border-box;
 }
-
-img {
-    /*border:1px solid gray;*/
-}
-
-/*'wrapper' groups the header,nav bar, main section and the footer*/
-
-#wrapper {
-    font-family: Helvetica, Arial, Verdana, sans-serif;
-    /*background-color: #FFCC66;*/
-    background-image: url("images/gears.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    padding-top:50px;
-}
-
-#main {
-    /*padding:10px;*/
-    border-left: 1px solid gray;
-    border-right:1px solid gray;
-    margin:10px;
-    opacity:0.7;
-}
-
-
 
 nav {
  
@@ -90,10 +70,6 @@ nav {
     white-space: nowrap;
 }
 
-.clearfix:after{
-    display:block;
-    clear:both;
-}
 nav ul {
     list-style: none;
     padding: 0px 0px 0px 5px;
@@ -121,6 +97,70 @@ nav ul li a {
 
 nav ul li:hover> a{
     color: white;
+}
+
+img {
+    /*border:1px solid gray;*/
+}
+
+h1.heading {
+    padding:10px;
+}
+
+footer {
+    color: #fff;
+    background-color: #2b2b26;
+    text-align:center;
+    padding:10px;
+    clear:both;
+    margin: 10px 0px 0px 0px; /*CSS box model for margins used economically*/
+}
+
+/*'wrapper' groups the header,nav bar, main section and the footer*/
+
+#wrapper {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    /*background-color: #FFCC66;*/
+    background-image: url("images/gears.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top:50px;
+}
+
+#main {
+    /*padding:10px;*/
+    border-left: 1px solid gray;
+    border-right:1px solid gray;
+    margin:10px;
+    opacity:0.8;
+}
+
+#content {
+    background-color:maroon;
+    text-align:justify;
+    margin-top :20px;
+    margin-bottom: 20px;
+    font-size:1.2em;
+    line-height: 1.6em;
+}
+
+#writtencontent {
+    padding:20px;
+}
+
+#content a{
+    text-decoration: none;
+    color:yellow; /*for links*/
+}
+
+#content a:hover{
+    font-size:102%;
+}
+
+
+.clearfix:after{
+    display:block;
+    clear:both;
 }
 
 .submenu {
@@ -161,7 +201,6 @@ nav ul li:hover .submenu{
     color: white;
 }
 
-
 /*Navigation bar button corresponding to the page that is active*/
 .selected {
     color: white;
@@ -173,14 +212,15 @@ nav ul li:hover .submenu{
 }
 
 .buttons {
-    width:520px;
+   text-align: left;
 }
+
 .button{
     background-color:#3A0000;
     border:2px solid #2a0000;
-    margin:2px 5px 10px 2px;
-    height:30px;
-    width:85px;
+    margin-top:5px;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
     color:#fff;
     font-size:inherit;
     text-align:center;
@@ -192,40 +232,10 @@ nav ul li:hover .submenu{
     -webkit-appearance: none;
     transition: 0.3s;
 }
+
 .button:hover{
     background-color:#160000;
 }
-
-#content {
-    background-color:maroon;
-    text-align:justify;
-    font-size:1.2em;
-    line-height: 1.6em;
-
-}
-
-#writtencontent {
-    padding:20px;
-}
-
-#transp {
-
-}
-
-#content a{
-    text-decoration: none;
-    color:chartreuse; /*for links*/
-}
-
-#content a:hover{
-    font-size:102%;
-}
-
-h1.heading {
-    padding:10px;
-    /*border-bottom: 2px solid gray;*/
-}
-
 
 *.underline {
     text-decoration: underline;
@@ -238,20 +248,3 @@ h1.heading {
     right:2px;
     top:0px;
 }
-/* main section*/
-
-
-p {
-    padding: 2px;
-}
-
-
-footer {
-    color: #fff;
-    background-color: #2b2b26;
-    text-align:center;
-    padding:10px;
-    clear:both;
-    margin: 10px 0px 0px 0px; /*CSS box model for margins used economically*/
-}
-

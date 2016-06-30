@@ -7,15 +7,14 @@ display:block;
 #canvas {
 	background:linear-gradient(to bottom,#ffffff, #e1e1e3);
 	border: 2px solid gray;
-	margin: 20px 40px 5px 5px;
+	margin: 0px 100px 5px 5px;
 	float:right;
 }
 
 #content {
-	margin: 20px 5px 5px 5px;
 	width:600px;
 }
 
 #main {
-	height:600px;
+	height:700px;
 }
