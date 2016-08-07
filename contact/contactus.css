@@ -43,7 +43,7 @@ p.large {
 }
 
 .buttons {
-   margin-left: 170px;
+   margin-left: 173px;
 }
 
 .textbox {
@@ -68,14 +68,22 @@ p.large {
     text-align:left;
     color:#1A1A1A;
     font-size:initial;
-    padding: 5px;
+    padding: 10px;
 }
 
 ::-moz-placeholder {
     text-align:left;
     color:#1A1A1A;
     font-size:initial;
-    padding: 5px;
+    padding: 10px;
+}
+
+input:-moz-placeholder {
+    text-align:left;
+    color:#1A1A1A;
+    font-size:initial;
+    padding: 10px;
+
 }
 
 :-ms-input-placeholder{
