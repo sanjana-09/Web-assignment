@@ -101,6 +101,7 @@ nav ul li:hover> a{
 
 h1.heading {
     padding:10px;
+    color: #131010;
 }
 
 footer {
@@ -117,8 +118,8 @@ footer {
 #wrapper {
     font-family: Helvetica, Arial, Verdana, sans-serif;
     /*background-color: #FFCC66;*/
-    background-image: url("images/gears.jpg");
-    background-size:cover;
+    background-image: url("images/brown.jpg");
+    background-size:100% 100%;
     background-repeat:no-repeat;
     padding-top:50px;
 }

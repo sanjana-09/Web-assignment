@@ -7,15 +7,6 @@
   padding: 0px;
 }
 
-#content img{
-  height:100px;
-  width:100px;
-  padding:5px;
-  border:1px white;
-  margin: 5px 10px 0px 0px;
-  float:left;
-}
-
 .article{
   padding-left:10px;
   padding-right:10px;

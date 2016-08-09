@@ -7,6 +7,11 @@ display:block;
 	height:700px;
 }
 
+#content{
+	margin: 100px auto;
+	position: relative;
+}
 #writtencontent{
+	margin: 0 auto;
 	text-align: center;
 }

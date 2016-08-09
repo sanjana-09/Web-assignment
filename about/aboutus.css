@@ -3,13 +3,6 @@ article, aside, details, figcaption, figure, footer, header,hgroup, menu, nav, s
 display:block;
 }
 
-.image{
-
-	float : left;
-	margin:15px;
-	padding:2px;
-}
-
 #writtencontent {
 	padding: 20px;
 }
